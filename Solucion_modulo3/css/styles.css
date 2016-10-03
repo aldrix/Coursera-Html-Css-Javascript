@@ -1,0 +1,111 @@
+body {
+	font-size: 16px;
+}
+
+/*HEADER*/
+#header-nav {
+	background-color: #333;
+	border-radius: 0;
+	border: 0;
+}
+.navbar-brand {
+	padding-top: 25px;
+	margin-bottom: 20px;
+}
+.navbar-brand h1 {
+	color: #FFF;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+#nav-list {
+	margin-top: 10px;
+}
+#nav-list a {
+	color: #FFF;
+	text-align: center;
+}
+#nav-list a span {
+	font-size: 1.5em;
+}
+/*FIN DEL HEADER*/
+
+/*PAGINA PRINCIPAL*/
+#main-content {
+  margin-top: 90px;
+	margin-bottom: 10px;
+}
+#menu-title {
+	margin-top: 5px;
+	margin-bottom: 30px;
+}
+.food-tile {
+	position: relative;
+	background-color: #DFDFDF;
+	border: 1px solid #333333;
+	overflow: auto;
+	width: 100%;
+	height: 280px;
+	margin: 0 auto 20px;
+}
+.food-tile span {
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	font-size: 1.2em;
+	text-transform: uppercase;
+	background-color: #000;
+	color: #FFF;
+	opacity: .8;
+}
+.food-tile p {
+	position: absolute;
+	margin-top: 40px;
+	padding: 10px;
+}
+/*FIN DE PAGINA PRINCIPAL*/
+
+/*FOOTER*/
+.panel-footer {
+	background-color: #333;
+	color: #FFF;
+	height: 80px;
+	width: 100%;
+	overflow: hidden; 
+}
+.panel-footer p {
+	margin-top: 25px;
+}
+/*FIN DEL FOOTER*/
+
+#back-btn > a {
+	font-size: 1.5em;
+	display: block;
+  margin-right: 2%;
+  margin-left: 2%; 
+	margin-bottom: 30px;
+	border: 1px solid #222;
+	background-color: #333;
+	color: #FFF;
+}
+
+@media (min-width: 992px) {
+	/*FOOTER*/
+	.panel-footer {
+		background-color: #333;
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		color: #FFF;
+		height: 80px;
+		width: 100%;
+		overflow: hidden; 
+	}
+	/*FIN DEL FOOTER*/	
+}
